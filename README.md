@@ -18,8 +18,17 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 의료 정보에 대한 이해도를 높일 수 있으며 의료 서비스에 대한 불안감을 줄일 수 있다.
 
 
-## 2.데이터
+## 2. 데이터
 [UCI-DRUG 데이터 출처 링크](https://www.kaggle.com/datasets/arpikr/uci-drug "UCI-DRUG")
+
+
+### 2-1. 데이터 구성
+
+- 데이터명 
+
+|uniqueID|drugName|condition|review|rating|date|usefulCount|
+|--------|--------|--------|------|------|----|-----------|
+|고유 식별자|의약품명|환자 병명|리뷰|평점|작성날짜(년월일)|유용한 리뷰추천수|
 
 
 - 활용할 데이터 예시 
@@ -33,13 +42,18 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 |4|35696|Buprenorphine/naloxone|Opiate Dependence|"Suboxone has completely turned my life around...|9|27-Nov-16|37|
 
 
+- 데이터 부가정보 
+count
 
-- 데이터명 
-
-|uniqueID|drugName|condition|review|rating|date|usefulCount|
-|--------|--------|--------|------|------|----|-----------|
-|고유 식별자|의약품명|환자 병명|리뷰|평점|작성날짜(년월일)|유용한 리뷰추천수|
+![부가정보](https://user-images.githubusercontent.com/112537146/232723675-458cba09-0021-43e7-9161-078fa9e4417c.PNG)
 
 
 
-<div><img src = "https://user-images.githubusercontent.com/112537146/232656257-a82044df-6a63-478d-a71d-3dbcadf2d427.png" width="300"></div>
+![download](https://user-images.githubusercontent.com/112537146/232725924-ff4b00f3-a64f-48e9-8702-5cc9e6334693.png)
+
+![KakaoTalk_20230418_175958290](https://user-images.githubusercontent.com/112537146/232727731-b7184f5b-d376-4699-92ec-846a3779cbfc.png)
+
+
+
+
+

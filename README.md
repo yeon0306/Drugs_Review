@@ -57,5 +57,3 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 ![download](https://user-images.githubusercontent.com/112537146/232725924-ff4b00f3-a64f-48e9-8702-5cc9e6334693.png)
 
 연도별 리뷰 건수를 그래프로 나타내보았다. 가장 리뷰가 적은 연도는 2008년, 가장 리뷰가 많은 연도는 2016년인 것을 알 수 있다.
-
-

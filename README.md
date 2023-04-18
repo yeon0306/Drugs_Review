@@ -30,7 +30,7 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 
 ![image](https://user-images.githubusercontent.com/112537146/232664063-5706008d-ceaf-43e8-8c46-094ea6af259f.png) 리뷰 작성 날짜(년월일)
 
-![image](https://user-images.githubusercontent.com/112537146/232664592-3397441c-8267-44fd-8640-69b030a645a8.png) 추천수 
+![image](https://user-images.githubusercontent.com/112537146/232665292-bca5a5df-6654-45ce-85d0-42072d109f40.png) 추천수 
 
 
 

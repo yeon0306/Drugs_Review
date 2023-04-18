@@ -20,7 +20,8 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 # 2.데이터
 데이터 출처- https://www.kaggle.com/datasets/jessicali9530/kuc-hackathon-winter-2018
 
-[image](https://user-images.githubusercontent.com/112537146/232663849-545d15dd-7fed-40fc-96cb-cc0217a7b26b.png)
+![image](https://user-images.githubusercontent.com/112537146/232663934-6baec530-bc1a-4f17-877c-f36857994e12.png)
+
 
 
 <div><img src = "https://user-images.githubusercontent.com/112537146/232656257-a82044df-6a63-478d-a71d-3dbcadf2d427.png" width="300"></div>

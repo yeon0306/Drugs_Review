@@ -43,7 +43,6 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 
 
 - 데이터 부가정보 
-count
 
 ![부가정보](https://user-images.githubusercontent.com/112537146/232723675-458cba09-0021-43e7-9161-078fa9e4417c.PNG)
 
@@ -51,7 +50,6 @@ count
 
 ![download](https://user-images.githubusercontent.com/112537146/232725924-ff4b00f3-a64f-48e9-8702-5cc9e6334693.png)
 
-![KakaoTalk_20230418_175958290](https://user-images.githubusercontent.com/112537146/232727731-b7184f5b-d376-4699-92ec-846a3779cbfc.png)
 
 
 

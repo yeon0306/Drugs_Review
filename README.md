@@ -18,11 +18,13 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 
 
 # 2.데이터
-[UCI-DRUG 데이터 출처](https://www.kaggle.com/datasets/arpikr/uci-drug "UCI-DRUG")
+[UCI-DRUG 데이터 출처 링크](https://www.kaggle.com/datasets/arpikr/uci-drug "UCI-DRUG")
+
 
 
 |-|uniqueID|drugName|condition|review|rating|date|usefulCount|
-|-|--------|--------|---------|------|------|----|-----------|
+|-|고유식별자|약물이름|환자 병명|리뷰|평점|작성날짜|추천수|
+|-|--------|--------|--------|------|------|----|-----------|
 |0|206461|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|9|20-May-12|27|
 |1|95260|Guanfacine|ADHD|	"My son is halfway through his fourth week of ...|8|27-Apr-10|192|
 |2|92703|Lybrel|Birth Control|"I used to take another oral contraceptive, wh...|5|14-Dec-09|17|

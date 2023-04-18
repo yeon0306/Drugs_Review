@@ -20,24 +20,14 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 # 2.데이터
 데이터 출처- https://www.kaggle.com/datasets/arpikr/uci-drug
 
-![image](https://user-images.githubusercontent.com/112537146/232665068-f27ee67d-bdb7-43ff-86af-dae4201743e7.png) 약물 이름 
-
-![image](https://user-images.githubusercontent.com/112537146/232665115-6da782f0-f64c-4848-af70-b5d573a09d25.png) 환자 병명 
-
-![image](https://user-images.githubusercontent.com/112537146/232665143-4a2d4040-1876-448d-ae4a-07aeeb0b6ca1.png) 리뷰
-
-![image](https://user-images.githubusercontent.com/112537146/232664054-175260bb-8498-443b-be61-551808a2885b.png) 평점
-
-![image](https://user-images.githubusercontent.com/112537146/232664063-5706008d-ceaf-43e8-8c46-094ea6af259f.png) 리뷰 작성 날짜(년월일)
-
-![image](https://user-images.githubusercontent.com/112537146/232665292-bca5a5df-6654-45ce-85d0-42072d109f40.png) 추천수 
-
-
-|uniqueID|drugName|condition|review|rating|date|usefulCount|
-|--------|--------|---------|------|------|----|-----------|
-|1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|-|고유식별자|약물이름|환자 병명|리뷰|평점|작성날짜(년월일)|추천수|
+|-|uniqueID|drugName|condition|review|rating|date|usefulCount|
+|-|--------|--------|---------|------|------|----|-----------|
+|0|206461|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|9|20-May-12|27|
+|1|95260|Guanfacine|ADHD|	"My son is halfway through his fourth week of ...|8|27-Apr-10|192|
+|2|92703|Lybrel|Birth Control|"I used to take another oral contraceptive, wh...|5|14-Dec-09|17|
+|3|138000|Ortho Evra|Birth Control|"This is my first time using any form of birth...|8|3-Nov-15|10|
+|4|35696|Buprenorphine/naloxone|Opiate Dependence|"Suboxone has completely turned my life around...|9|27-Nov-16|37|
 
 
 

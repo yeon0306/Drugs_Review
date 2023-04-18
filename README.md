@@ -18,8 +18,7 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 
 
 # 2.데이터
-[kaggle](https://www.kaggle.com/datasets/arpikr/uci-drug "UCI-DRUG")
-데이터 출처- https://www.kaggle.com/datasets/arpikr/uci-drug
+[UCI-DRUG 데이터 출처](https://www.kaggle.com/datasets/arpikr/uci-drug "UCI-DRUG")
 
 
 |-|uniqueID|drugName|condition|review|rating|date|usefulCount|

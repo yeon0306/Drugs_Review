@@ -42,12 +42,14 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 |4|35696|Buprenorphine/naloxone|Opiate Dependence|"Suboxone has completely turned my life around...|9|27-Nov-16|37|
 
 
+
 - 데이터 부가정보 
 
 ![부가정보](https://user-images.githubusercontent.com/112537146/232723675-458cba09-0021-43e7-9161-078fa9e4417c.PNG)
 
 데이터는 53766건이며 2008년부터 2017년까지의 자료이다.
 date 는 Year, month, day 로 나타내고 있다.
+
 
 - 데이터 시각화
 

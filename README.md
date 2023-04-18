@@ -20,7 +20,6 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 # 2.데이터
 데이터 출처- https://www.kaggle.com/datasets/arpikr/uci-drug
 
-|-|고유식별자|약물이름|환자 병명|리뷰|평점|작성날짜(년월일)|추천수|
 |-|uniqueID|drugName|condition|review|rating|date|usefulCount|
 |-|--------|--------|---------|------|------|----|-----------|
 |0|206461|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|9|20-May-12|27|

@@ -1,5 +1,8 @@
 # Drug Review 💊
-UCI ML Drug Review dataset 를 활용한 의약품 사용자 리뷰 감성분석 
+의약품 사용자 리뷰 감성분석 프로젝트 <br/>
+<br/>
+<img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a>
 
 ## 1.개요 
 
@@ -8,6 +11,8 @@ UCI ML Drug Review dataset 를 활용한 의약품 사용자 리뷰 감성분석
 UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 소비자들이 제출한 약물 리뷰와 그에 따른 평점, 부작용 정보 등을 포함하고 있다.
 약물의 효과를 파악하기 위해서는 많은 수의 환자들이 복용한 후의 리뷰 데이터를 활용하여 특정 약물의 증상과 효과 등을 분석할 수 있다.
 이 프로젝트에서는 각종 질환을 앓고 있는 환자들의 약물 리뷰, 평점 등 다양한 특징에 따라 긍정 또는 부정을 예측하는 인공지능 모델을 개발하고자 한다.
+
+
 
 ### 1-2. 약물 리뷰의 영향력 
 
@@ -20,7 +25,8 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 
 
 ## 2. 데이터
-[UCI-DRUG 데이터 출처 링크](https://www.kaggle.com/datasets/arpikr/uci-drug "UCI-DRUG")
+[UCI-DRUG 데이터셋](https://www.kaggle.com/datasets/arpikr/uci-drug "UCI-DRUG")<br/>
+[UCI 홈페이지](https://archive.ics.uci.edu/ml/index.php "UCI")
 
 
 ### 2-1. 데이터 구성
@@ -52,7 +58,7 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 
 데이터는 53766건이며 2008년부터 2017년까지의 자료이다.<br/>
 평점(rating)은 1점부터 10점까지 구성되어있다.<br/>
-리뷰 작성 날짜(date)는 Year, month, day 로 나타내고 있다.
+리뷰 작성 날짜(date)는 Year, month, day 로 나타내고 있다.<br/>
 
 
 ### 2-3. 데이터 시각화

@@ -54,26 +54,19 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 
 ### 2-3. 데이터 시각화
 
-'''
-import numpy as np
-import pandas as pd
 
-import matplotlib.pyplot as plt
-import seaborn as sns
+    data = pd.read_csv('drugsComTest_raw.csv')
+    data['date'] = pd.to_datetime(data['date'], errors = 'coerce')
+    data['Year'] = data['date'].dt.year
+    data['month'] = data['date'].dt.month
+    data['day'] = data['date'].dt.day
 
-data = pd.read_csv('drugsComTest_raw.csv')
+    sns.countplot(x=data['Year'], data=data, palette ='colorblind')
+    plt.title('The No. of Reviews each year')
+    plt.xlabel('Year')
+    plt.ylabel('Count of Reviews')
+    plt.show() 
 
-data['date'] = pd.to_datetime(data['date'], errors = 'coerce')
-data['Year'] = data['date'].dt.year
-data['month'] = data['date'].dt.month
-data['day'] = data['date'].dt.day
-
-sns.countplot(x=data['Year'], data=data, palette ='colorblind')
-plt.title('The No. of Reviews each year')
-plt.xlabel('Year')
-plt.ylabel('Count of Reviews')
-plt.show()
-'''
 ![download](https://user-images.githubusercontent.com/112537146/232725924-ff4b00f3-a64f-48e9-8702-5cc9e6334693.png)
 
 연도별 리뷰 건수를 그래프로 나타내보았다. 가장 리뷰가 적은 연도는 2008년,가장 리뷰가 많은 연도는 2016년인 것을 알 수 있다.

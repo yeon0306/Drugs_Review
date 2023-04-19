@@ -1,5 +1,5 @@
 # Drug Review 💊
-의약품 사용자 리뷰 감성분석 프로젝트 <br/>
+MobileBert를 활용한 의약품 사용자 리뷰 감성분석 프로젝트 <br/>
 <br/>
 <img src="https://img.shields.io/badge/PyTorch-E34F26?style=flat-square&logo=PyTorch&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a>

@@ -45,6 +45,9 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 
 ### 2-2. 데이터 부가정보 
 
+    data = pd.read_csv('UCIdrug_test.csv')
+    data.describe()
+
 ![부가정보](https://user-images.githubusercontent.com/112537146/232723675-458cba09-0021-43e7-9161-078fa9e4417c.PNG)
 
 데이터는 53766건이며 2008년부터 2017년까지의 자료이다.<br/>
@@ -54,7 +57,6 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 
 ### 2-3. 데이터 시각화
 
-    data = pd.read_csv('UCIdrug_test.csv')
     data['date'] = pd.to_datetime(data['date'], errors = 'coerce')
     data['Year'] = data['date'].dt.year
     data['month'] = data['date'].dt.month

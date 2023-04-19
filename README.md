@@ -65,7 +65,7 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
     plt.title('The No. of Reviews each year')
     plt.xlabel('Year')
     plt.ylabel('Count of Reviews')
-    plt.show() 
+    plt.show()
 
 ![download](https://user-images.githubusercontent.com/112537146/232725924-ff4b00f3-a64f-48e9-8702-5cc9e6334693.png)
 

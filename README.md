@@ -1,4 +1,4 @@
-# Drugs Review 💊
+# Drug Review 💊
 UCI ML Drug Review dataset 를 활용한 의약품 사용자 리뷰 감성분석 
 
 ## 1.개요 
@@ -54,8 +54,7 @@ UCI ML Drug Review 데이터셋은 대규모 약물 리뷰 데이터셋으로 �
 
 ### 2-3. 데이터 시각화
 
-
-    data = pd.read_csv('drugsComTest_raw.csv')
+    data = pd.read_csv('UCIdrug_test.csv')
     data['date'] = pd.to_datetime(data['date'], errors = 'coerce')
     data['Year'] = data['date'].dt.year
     data['month'] = data['date'].dt.month

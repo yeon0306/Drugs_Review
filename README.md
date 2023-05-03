@@ -25,6 +25,7 @@ UCI Drug dataset은 캘리포니아 어바인 대학에서 운영하는 UCI 머�
 Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트에 포함시켰다.
 2017년 4월 The Harris Poll은 Drugs.com을 올해의 건강 정보 웹사이트 브랜드로 선정했다.[[3]](https://en.wikipedia.org/wiki/Drugs.com)
 
+![DRUG](https://user-images.githubusercontent.com/112537146/235820767-5d65e994-e282-4c5c-8cce-cd8076f51e4e.PNG)
 
 ## 2. 데이터
 [UCI-DRUG 데이터셋](https://www.kaggle.com/datasets/arpikr/uci-drug "UCI-DRUG")<br/>

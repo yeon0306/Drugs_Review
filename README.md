@@ -80,5 +80,8 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 약물 리뷰의 긍/부정 예측을 파이차트로 그려보았다. 긍정은 74.90%, 부정은 25.10% 이다.
 
 
+![ㅇㄹㅇㄹㅇ](https://user-images.githubusercontent.com/112537146/235827185-ea29de5a-fe5b-4e81-95bc-e215fa51fb13.PNG)
+
+
 
 

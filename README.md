@@ -52,9 +52,6 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 ### 2-2. 데이터 부가정보 
 
-    data = pd.read_csv('UCIdrug_test.csv')
-    data.describe()
-
 ![부가정보](https://user-images.githubusercontent.com/112537146/232723675-458cba09-0021-43e7-9161-078fa9e4417c.PNG)
 
 데이터는 53766건이며 2008년부터 2017년까지의 자료이다.<br/>

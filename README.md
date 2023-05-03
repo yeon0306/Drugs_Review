@@ -82,6 +82,9 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 ![ㅇㄹㅇㄹㅇ](https://user-images.githubusercontent.com/112537146/235827185-ea29de5a-fe5b-4e81-95bc-e215fa51fb13.PNG)
 
+LightGBM을 사용한 형상 중요도 그림이다.
+가장 중요한 특징은 평균 단어 길이와 그 이후 환자의 상태임을 추론할 수 있다.
+
 
 
 

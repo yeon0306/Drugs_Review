@@ -65,9 +65,9 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 연도별 리뷰 건수를 그래프로 나타내보았다. 가장 리뷰가 적은 연도는 2008년,가장 리뷰가 많은 연도는 2016년인 것을 알 수 있다.<br/>
 
-![평점분포도](https://github.com/yeon0306/Drugs_Review/assets/112537146/1b679623-c1eb-4c61-8ff3-952857a6ee88)
+![평점분포표](https://github.com/yeon0306/Drugs_Review/assets/112537146/7d3968ef-13bf-4484-ba2f-9a2aeae60f15)
 
-약물 리뷰의 긍/부정 예측을 하기 위한 평점 분포표를 파이차트로 그려보았다. 
+약물 리뷰의 긍/부정 예측을 하기 위한 1점부터 10점까지의 평점 분포표를 파이차트로 그려보았다. 
 약물 리뷰의 긍/부정 예측은 평점의 5점보다 크거나 같을때 긍정, 5점보다 작을때 부정으로 예측해보겠다.
 
 ![sentiment](https://user-images.githubusercontent.com/112537146/235824425-4d7374d5-c083-4117-9bb4-f9fb043a9193.PNG)

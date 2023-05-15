@@ -57,8 +57,14 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 데이터는 53766건이며 2008년부터 2017년까지의 자료이다.<br/>
 평점(rating)은 1점부터 10점까지 구성되어있다.<br/>
 리뷰 작성 날짜(date)는 Year, month, day 로 나타내고 있다.<br/>
-![약물종류](https://github.com/yeon0306/Drugs_Review/assets/112537146/89b65bc1-6401-4dc2-b89f-653401af36e3)
-리뷰 데이터셋의 약물종류는 2637개이다.
+
+##### 약물 개수 
+![약물 종류 111](https://github.com/yeon0306/Drugs_Review/assets/112537146/fe26ec16-124d-43d9-b9f2-d9e80e109930)<br/>
+약물종류는 2637개이다.<br/>
+
+##### 환자병명 개수 
+![환자 병명](https://github.com/yeon0306/Drugs_Review/assets/112537146/53090564-1f8d-407d-8dd6-711243f8deb3)<br/>
+환자가 앓고있는 질환(condition)의 종류는 709개이다.<br/>
 
 
 ### 2-3. 데이터 시각화

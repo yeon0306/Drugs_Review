@@ -93,7 +93,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 긍정인 리뷰 건수는 40269건, 부정인 리뷰 건수는 13497으로 예측되었다. 
 
-![긍부정파이차트](https://user-images.githubusercontent.com/112537146/235824785-a88af42b-71b1-437b-9944-ba3c97f82781.PNG)
+<div><img src = "https://user-images.githubusercontent.com/112537146/235824785-a88af42b-71b1-437b-9944-ba3c97f82781.PNG" width="600"></div>
 
 약물 리뷰의 긍/부정 예측을 파이차트로 그려보았다. 긍정은 74.90%, 부정은 25.10% 이다.
 

@@ -60,7 +60,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 ##### 약물 개수 
 ![약물 종류 111](https://github.com/yeon0306/Drugs_Review/assets/112537146/fe26ec16-124d-43d9-b9f2-d9e80e109930)<br/>
-약물종류는 2637개이다.<br/>
+약물종류(drugName)는 2637개이다.<br/>
 
 ##### 환자병명 개수 
 ![환자 병명](https://github.com/yeon0306/Drugs_Review/assets/112537146/53090564-1f8d-407d-8dd6-711243f8deb3)<br/>

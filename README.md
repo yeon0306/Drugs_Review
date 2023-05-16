@@ -69,11 +69,22 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 ### 2-3. 데이터 시각화
 
-![download](https://user-images.githubusercontent.com/112537146/232725924-ff4b00f3-a64f-48e9-8702-5cc9e6334693.png)
+- 연도별 리뷰 건수
+
+<div><img src = "https://user-images.githubusercontent.com/112537146/232725924-ff4b00f3-a64f-48e9-8702-5cc9e6334693.png" width="1200"></div>
 
 연도별 리뷰 건수를 그래프로 나타내보았다. 가장 리뷰가 적은 연도는 2008년,가장 리뷰가 많은 연도는 2016년인 것을 알 수 있다.<br/>
 
-![평점분포표](https://github.com/yeon0306/Drugs_Review/assets/112537146/7d3968ef-13bf-4484-ba2f-9a2aeae60f15)
+- 유용한 리뷰 추천수와 평점
+
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/9b0e14c0-77ac-4e99-a751-cba3bac9c9f6" width="600"></div>
+
+유용한 리뷰 추천수와 평점의 상관관계를 알아보기 위하여 유용한 리뷰 추천수와 평점 평균 산점도를 그려보았다.<br/>
+유용한 리뷰 추천수가 많은 수록 평점이 높은 것을 알 수 있다. 
+
+
+- 긍/부정 예측 
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/7d3968ef-13bf-4484-ba2f-9a2aeae60f15" width="600"></div>
 
 약물 리뷰의 긍/부정 예측을 하기 위한 1점부터 10점까지의 평점 분포표를 파이차트로 그려보았다. 
 약물 리뷰의 긍/부정 예측은 평점의 5점보다 크거나 같을때 긍정, 5점보다 작을때 부정으로 예측해보겠다.

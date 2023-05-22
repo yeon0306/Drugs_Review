@@ -90,13 +90,13 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/ee8a7ff9-a71d-4adf-8e3f-4ab3d813d670" width="600"></div>
 
 리뷰 추천수와 평점의 상관관계를 알아보기 위하여 리뷰 추천수와 평점 산점도를 그려보았다. <br/>
-평점이 높을수록 리뷰 추천수가 높은 것을 볼 수 있다.  
 
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/9b0e14c0-77ac-4e99-a751-cba3bac9c9f6" width="600"></div>
 
 좀 더 직관적으로 알아보기 위한 리뷰 추천수와 평점 평균 산점도를 그려보았다. <br/>
 평균적으로 평점 1점이 리뷰 추천수가 가장 낮고, 평점 10점이 리뷰 추천수를 가장 많은 것을 알 수 있다. <br/> 
+평점이 높을수록 리뷰 추천수가 높은 것을 볼 수 있다.  <br/>
 
 
 - 긍/부정 예측 
@@ -105,14 +105,15 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 ![sentiment](https://user-images.githubusercontent.com/112537146/235824425-4d7374d5-c083-4117-9bb4-f9fb043a9193.PNG)
 
-긍정인 리뷰 건수는 40269건, 부정인 리뷰 건수는 13497으로 예측되었다. 
+긍정인 리뷰 건수는 40269건, 부정인 리뷰 건수는 13497건으로 예측되었다. 
 
 <div><img src = "https://user-images.githubusercontent.com/112537146/235824785-a88af42b-71b1-437b-9944-ba3c97f82781.PNG" width="600"></div>
 
 약물 리뷰의 긍/부정 예측을 파이차트로 그려보았다. 긍정은 74.90%, 부정은 25.10% 이다.
 
+- 형상 중요도 그림 
 
-![ㅇㄹㅇㄹㅇ](https://user-images.githubusercontent.com/112537146/235827185-ea29de5a-fe5b-4e81-95bc-e215fa51fb13.PNG)
+<div><img src = "https://user-images.githubusercontent.com/112537146/235827185-ea29de5a-fe5b-4e81-95bc-e215fa51fb13.PNG" width="600"></div>
 
 LightGBM을 사용한 형상 중요도 그림이다.
 가장 중요한 특징은 평균 단어 길이와 그 이후 환자의 상태임을 추론할 수 있다.

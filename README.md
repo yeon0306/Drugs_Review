@@ -110,7 +110,13 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/01940a74-943e-4998-9be4-4dd9fe536c2e" width="800"></div>
 
 리뷰 문장 길이 20자 이상 850자 이하 기준 그래프이다.<br/>
-700자 중후반의 리뷰가 눈에 띄게 많다. <br/> 
+700자 중후반의 리뷰가 약 5천건으로 가장 많다. <br/> 
+
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/a0c44262-fada-477a-8e6a-50fc0b3623aa" width="600"></div>
+
+리뷰 문장 길이 건수를 파이차트로 그려보았다. <br/>
+200자 미만, 400자 미만, 600자 미만, 800자 미만, 그 외(850자) 기준으로 퍼센트를 나타내었다. <br/>
+
 
 
 

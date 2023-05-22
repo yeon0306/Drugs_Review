@@ -25,6 +25,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 ![DRUG](https://user-images.githubusercontent.com/112537146/235820767-5d65e994-e282-4c5c-8cce-cd8076f51e4e.PNG)
 
+
 ## 2. 데이터
 [UCI-DRUG 데이터셋](https://www.kaggle.com/datasets/arpikr/uci-drug "UCI-DRUG")<br/>
 [UCI 홈페이지](https://archive.ics.uci.edu/ml/index.php "UCI")
@@ -71,9 +72,23 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 - 연도별 리뷰 건수
 
-<div><img src = "https://user-images.githubusercontent.com/112537146/232725924-ff4b00f3-a64f-48e9-8702-5cc9e6334693.png" width="1200"></div>
+<div><img src = "https://user-images.githubusercontent.com/112537146/232725924-ff4b00f3-a64f-48e9-8702-5cc9e6334693.png" width="800"></div>
 
 연도별 리뷰 건수를 그래프로 나타내보았다. 가장 리뷰가 적은 연도는 2008년,가장 리뷰가 많은 연도는 2016년인 것을 알 수 있다.<br/>
+
+- 평점 분포
+
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/8d39affc-c6ad-49fa-b9f4-41525566a009" width="800"></div>
+
+1점부터 10점까지 평점 분포표를 그려보았다. <br/>
+10점이 가장 많고 그다음으로 9점, 1점이 많다.<br/> 
+
+<div><img src ="https://github.com/yeon0306/Drugs_Review/assets/112537146/d7d58570-1add-496b-988b-5588fee65a10" width="600"></div> 
+
+각 평점의 퍼센트를 알고 싶어 파이차트를 이용했다.<br/>
+사람들이 일반적으로 정말 좋아하는 약과 정말 싫어하는 약에 대한 리뷰를 쓴다는 것을 보여준다.<br/>
+극단적인 점수들에 비해 중간 점수인 2점부터 7점까지는 상당히 적게 분포되어 있는것을 알 수 있다.<br/> 
+
 
 - 유용한 리뷰 추천수와 평점
 
@@ -86,13 +101,11 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/9b0e14c0-77ac-4e99-a751-cba3bac9c9f6" width="600"></div>
 
 좀 더 직관적으로 알아보기 위한 리뷰 추천수와 평점 평균 산점도를 그려보았다. <br/>
-평균적으로 평점 1점이 리뷰 추천수가 가장 낮고, 평점 10점이 리뷰 추천수를 가장 많은 것을 알수 있다. <br/> 
+평균적으로 평점 1점이 리뷰 추천수가 가장 낮고, 평점 10점이 리뷰 추천수를 가장 많은 것을 알 수 있다. <br/> 
 
 
 - 긍/부정 예측 
-<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/7d3968ef-13bf-4484-ba2f-9a2aeae60f15" width="600"></div>
 
-약물 리뷰의 긍/부정 예측을 하기 위한 1점부터 10점까지의 평점 분포표를 파이차트로 그려보았다. 
 약물 리뷰의 긍/부정 예측은 평점의 5점보다 크거나 같을때 긍정, 5점보다 작을때 부정으로 예측해보겠다.
 
 ![sentiment](https://user-images.githubusercontent.com/112537146/235824425-4d7374d5-c083-4117-9bb4-f9fb043a9193.PNG)

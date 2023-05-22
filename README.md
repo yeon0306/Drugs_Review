@@ -19,16 +19,17 @@ UCI Drug dataset은 캘리포니아 어바인 대학에서 운영하는 UCI 머�
 2010년 5월 미국 FDA는 Drugs.com 웹사이트 및 모바일 플랫폼에서 소비자 건강 업데이트를 배포하기 위해 Drugs.com과의 협력을 발표했다[[1]](https://en.wikipedia.org/wiki/Drugs.com)
 또한 소비자 약물 리뷰를 통해 부작용이 발생하는 원인을 파악하고 다른 환자들의 실제 경험을 확인할 수 있으며 일반 소비자들도 쉽게 접근할 수 있기 때문에 소비자들은 자신의 권리를 적극적으로 주장할 수 있게 되고 의료 정보에 대한 이해도를 높일 수 있으며 의약품에 대한 불안감을 줄일 수 있다. 
 실제 drugs.com 사용자들은 [[2]](https://github.com/yeon0306/Drugs_Review/assets/112537146/5f0f689a-e3a6-4c1d-8f82-1121f6e959df) 다른 사용자들의 리뷰로 의약품 지식과 부작용 등의 정보 얻고 있다. 
-<div><img src = "https://user-images.githubusercontent.com/112537146/235820767-5d65e994-e282-4c5c-8cce-cd8076f51e4e.PNG" width="1200"></div>
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/6fcc8b7c-e8a1-4846-8ba2-38d63ab58f8c" width="600"></div>
+
 2016년 2월, comScore는 Drugs.com이 한 달 동안 약 2,300만 명의 방문자를 받는 6번째로 가장 인기 있는 건강 네트워크라고 발표했으며[[3]](https://en.wikipedia.org/wiki/Drugs.com)
 Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트에 포함시켰다.
 2017년 4월 The Harris Poll은 Drugs.com을 올해의 건강 정보 웹사이트 브랜드로 선정했다.[[4]](https://en.wikipedia.org/wiki/Drugs.com)
 
-<div><img src = "https://user-images.githubusercontent.com/112537146/235820767-5d65e994-e282-4c5c-8cce-cd8076f51e4e.PNG" width="1200"></div>
-
+<div><img src = "https://user-images.githubusercontent.com/112537146/235820767-5d65e994-e282-4c5c-8cce-cd8076f51e4e.PNG" width="800"></div>
 
 
 ## 2. 데이터
+
 [UCI-DRUG 데이터셋](https://www.kaggle.com/datasets/arpikr/uci-drug "UCI-DRUG")<br/>
 [UCI 홈페이지](https://archive.ics.uci.edu/ml/index.php "UCI")
 

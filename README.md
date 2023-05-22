@@ -78,14 +78,9 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 - 평점 분포
 
-<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/b881603a-fa79-43e9-b6a1-5f8081673e7c" width="800"></div>
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/337aa1f4-be0c-4512-a3e9-73b09eef13bb" width="800"></div>
 
-1점부터 10점까지 평점 분포표를 그려보았다. <br/>
-10점이 가장 많고 그다음으로 9점, 1점이 많다.<br/> 
-
-<div><img src ="https://github.com/yeon0306/Drugs_Review/assets/112537146/d7d58570-1add-496b-988b-5588fee65a10" width="600"></div> 
-
-각 평점의 퍼센트를 알고 싶어 파이차트를 이용했다.<br/>
+1점부터 10점까지 평점 분포표를 그려보았다.<br/> 
 사람들이 일반적으로 정말 좋아하는 약과 정말 싫어하는 약에 대한 리뷰를 쓴다는 것을 보여준다.<br/>
 극단적인 점수들에 비해 중간 점수인 2점부터 7점까지는 상당히 적게 분포되어 있는것을 알 수 있다.<br/> 
 

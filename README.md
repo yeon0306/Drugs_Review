@@ -70,17 +70,11 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 ### 2-3. 데이터 시각화
 
-- 연도별 리뷰 건수
-
-<div><img src = "https://user-images.githubusercontent.com/112537146/232725924-ff4b00f3-a64f-48e9-8702-5cc9e6334693.png" width="800"></div>
-
-연도별 리뷰 건수를 그래프로 나타내보았다. 가장 리뷰가 적은 연도는 2008년,가장 리뷰가 많은 연도는 2016년인 것을 알 수 있다.<br/>
-
 - 평점 분포
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/337aa1f4-be0c-4512-a3e9-73b09eef13bb" width="800"></div>
 
-1점부터 10점까지 평점 분포표를 그려보았다.<br/> 
+1점부터 10점까지 구성되어있는 평점 분포표이다.<br/> 
 사람들이 일반적으로 정말 좋아하는 약과 정말 싫어하는 약에 대한 리뷰를 쓴다는 것을 보여준다.<br/>
 극단적인 점수들에 비해 중간 점수인 2점부터 7점까지는 상당히 적게 분포되어 있는것을 알 수 있다.<br/> 
 
@@ -111,12 +105,14 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 약물 리뷰의 긍/부정 예측을 파이차트로 그려보았다. 긍정은 74.90%, 부정은 25.10% 이다.
 
-- 형상 중요도 그림 
+- 리뷰 문장 길이 
 
-<div><img src = "https://user-images.githubusercontent.com/112537146/235827185-ea29de5a-fe5b-4e81-95bc-e215fa51fb13.PNG" width="600"></div>
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/01940a74-943e-4998-9be4-4dd9fe536c2e" width="800"></div>
 
-LightGBM을 사용한 형상 중요도 그림이다.
-가장 중요한 특징은 평균 단어 길이와 그 이후 환자의 상태임을 추론할 수 있다.
+리뷰 문장 길이 20자 이상 850자 이하 기준 그래프이다.<br/>
+700자 중후반의 리뷰가 눈에 띄게 많다. <br/> 
+
+
 
 
 

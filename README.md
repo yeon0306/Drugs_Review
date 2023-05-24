@@ -122,6 +122,8 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 
 - 데이터
+
+
 |-|drugName|condition|review|ratings|
 |-|--------|--------|------|--------|
 |0|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|positive|

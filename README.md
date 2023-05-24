@@ -124,13 +124,17 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 - 데이터
 
 
-|-|drugName|condition|review|ratings|
-|-|--------|--------|------|--------|
-|0|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|positive|
-|1|Guanfacine|ADHD|	"My son is halfway through his fourth week of ...|positive|
-|2|Lybrel|Birth Control|"I used to take another oral contraceptive, wh...|negative|
-|3|Ortho Evra|Birth Control|"This is my first time using any form of birth...|positive|
-|4|Buprenorphine/naloxone|Opiate Dependence|"Suboxone has completely turned my life around...|positive|
+|-|drugName|condition|review|rating|ratings|
+|-|--------|--------|------|------|--------|
+|0|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|1|positive|
+|1|Guanfacine|ADHD|	"My son is halfway through his fourth week of ...|1|positive|
+|2|Belviq|Weight Loss|"This is a waste of money.  Did not curb my app...|0|negative|
+|3|Ortho Evra|Birth Control|"This is my first time using any form of birth...|1|positive|
+|4|Buprenorphine/naloxone|Opiate Dependence|"Suboxone has completely turned my life around...|1|positive|
+
+"This is a waste of money.  Did not curb my appetite nor did it make me feel full."
+![image](https://github.com/yeon0306/Drugs_Review/assets/112537146/8890db8a-d393-446e-9579-e1a91524803c)
+
 
 20자 이하 데이터는 삭제하고 평점을 긍/부정으로 나누었다.
 

@@ -132,12 +132,8 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 |3|Ortho Evra|Birth Control|"This is my first time using any form of birth...|1|positive|
 |4|Buprenorphine/naloxone|Opiate Dependence|"Suboxone has completely turned my life around...|1|positive|
 
-"This is a waste of money.  Did not curb my appetite nor did it make me feel full."
-![image](https://github.com/yeon0306/Drugs_Review/assets/112537146/8890db8a-d393-446e-9579-e1a91524803c)
 
-
-20자 이하 데이터는 삭제하고 평점을 긍/부정으로 나누었다.
-
+20자 이하 데이터는 삭제하고 평점을 긍정은 1, 부정 0으로 바꾸었다.
 
 
 

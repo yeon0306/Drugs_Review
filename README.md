@@ -60,23 +60,27 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 ### 2-2. 데이터 부가정보 
 
 ##### 약물 개수 
+
 ![약물 종류 111](https://github.com/yeon0306/Drugs_Review/assets/112537146/fe26ec16-124d-43d9-b9f2-d9e80e109930)<br/>
 약물종류(drugName)는 2637개이다.<br/>
 
+**리뷰가 가장 많은 약물 상위 10개를 뽑은 그래프** 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/fa86bc7d-103d-42e0-9318-40d3f8029ee3" width="1200"></div>
-리뷰가 가장 많은 약물 상위 10개를 뽑은 그래프를 만들어보았다. </br>
-왼쪽 순서대로 약물에 대해 서술하겠다. </br>
-- Levonorgestrel (레보노게스트렐) : 응급 피임약  </br>
-- Etonogestrel (에토노게스트렐) : 여성 피임약   </br>
-- Ethinyl estradiol and norethindrone (에티닐 에스트라디올과 노르에틴드론의 조합): Ethinyl estradiol 은 갱년기 증상, 부인과 질환, 특정 호르몬 민감성 암의 치료로 사용되었지만  </br>
-norethindrone의 조합은 여성 피임약으로 쓰인다. </br>
-- Nexplanon : 여성 피임 임플란트, 팔에 성냥개비 크기의 작고 유연한 플라스틱 막대의 임플란트를 이식하는 피임법.  </br>
-- Ethinyl estradiol and norgestimate (에스트라디올과 노르게스트 조합): 여성 피임약이지만 여드름 치료로도 사용된다. </br>
-- Ethinyl estradiol / levonorgestrel (에티닐에스트라디올/레보노르게스트렐): 복합 피임약으로 피임, 월경의 증상, 자궁 내막증 및 응급 피임약이다. </br>
-- Phentermine (펜터민): 비만 치료제
-- sertraline (설트랄린): 우울증, 강박증 치료제
-- Escitalopram (에스시탈로프람) : 우울증, 공황장애, 사회불안장애 등 광범위하게 사용되는 항우울제
-- mirena (미레나) : 자궁 내 피임 시술 
+
+|순위|약물이름|  설명  |
+|-|--------|--------|
+|1|Levonorgestrel(레보노게스트렐)|응급 피임약|
+|2|Etonogestrel (에토노게스트렐)|여성 피임약|
+|3|Ethinyl estradiol/norethindrone(에티닐 에스트라디올/노르에틴드론 조합)|여성 복합 피임약|
+|4|Nexplanon(넥스플래논)|여성 피임 임플란트, 팔에 성냥개비 크기의 플라스틱 막대의 임플란트를 이식하는 피임 시술|
+|5|Ethinyl estradiol/norgestimate (에스트라디올/노르게스트 조합)|여성 피임약이지만 여드름 치료로도 사용|
+|6|Ethinyl estradiol/levonorgestrel (에티닐에스트라디올/레보노르게스트렐)|복합 피임약,생리통,자궁 내막증 및 응급 피임약|
+|7|Phentermine(펜터민)|비만 치료제|
+|8|sertraline(설트랄린)|우울증, 강박증 치료제|
+|9|Escitalopram(에스시탈로프람)|우울증, 공황장애, 사회불안장애 등 광범위하게 사용되는 항우울제|
+|10|mirena (미레나)|자궁 내 피임 시술| 
+
+그래프의 설명을 돕기 위해 약물 이름과 설명을 표로 만들었다. 여성 피임약과 피임 시술 리뷰가 가장 많은 것을 알 수 있다.
 
 ##### 환자병명 개수 
 ![환자 병명](https://github.com/yeon0306/Drugs_Review/assets/112537146/53090564-1f8d-407d-8dd6-711243f8deb3)<br/>

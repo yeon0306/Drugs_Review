@@ -133,21 +133,21 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 리뷰 문장 길이 건수를 파이차트로 그려보았다. <br/>
 200자 미만, 400자 미만, 600자 미만, 800자 미만, 그 외(850자) 기준으로 퍼센트를 나타내었다. <br/>
 
+### 3. 데이터 가공 
 
-- 데이터
 
-
-|-|drugName|condition|review|rating|ratings|
+|-|drugName|condition|review|rating|label|
 |-|--------|--------|------|------|--------|
-|0|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|1|positive|
-|1|Guanfacine|ADHD|	"My son is halfway through his fourth week of ...|1|positive|
-|2|Belviq|Weight Loss|"This is a waste of money.  Did not curb my app...|0|negative|
-|3|Ortho Evra|Birth Control|"This is my first time using any form of birth...|1|positive|
-|4|Buprenorphine/naloxone|Opiate Dependence|"Suboxone has completely turned my life around...|1|positive|
+|0|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|positive|1|
+|1|Guanfacine|ADHD|	"My son is halfway through his fourth week of ...|positive|1|
+|2|Belviq|Weight Loss|"This is a waste of money.  Did not curb my app...|negative|0|
+|3|Ortho Evra|Birth Control|"This is my first time using any form of birth...|positive|1|
+|4|Buprenorphine/naloxone|Opiate Dependence|"Suboxone has completely turned my life around...|positive|1|
 
 
-20자 이하 데이터는 삭제하고 평점을 긍정은 1, 부정 0으로 바꾸었다.
-
+리뷰 문장 길이 20자 이하 데이터와 850자 이상 데이터는 삭제하였다.<br/>
+긍/부정 예측을 정확하게 하기 위해 애매한 평점 4 ~ 6점의 데이터는 삭제하였고, 긍정은 8 ~ 10점 / 부정은 1 ~ 3점 기준으로 정하였다.<br/>
+기존 rating 점수를 긍/부정으로 바꾸어 기입하였고 label을 추가하여 긍정일 경우 1, 부정일 경우 0 으로 추가하였다. 
 
 
 

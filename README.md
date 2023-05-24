@@ -80,14 +80,30 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 |9|Escitalopram(에스시탈로프람)|우울증, 공황장애, 사회불안장애 등 광범위하게 사용되는 항우울제|
 |10|mirena (미레나)|자궁 내 피임 시술| 
 
-그래프의 설명을 돕기 위해 약물 이름과 설명을 표로 만들었다. 여성 피임약과 피임 시술 리뷰가 가장 많은 것을 알 수 있다.
+그래프의 설명을 돕기 위해 약물 이름과 설명을 표로 만들었다. 여성 피임약과 피임 시술 리뷰가 가장 많고, 우울증 치료제와 비만 치료제가 순위권에 있는 것을 알 수 있다.
 
 **환자병명 개수**
 
 ![환자 병명](https://github.com/yeon0306/Drugs_Review/assets/112537146/53090564-1f8d-407d-8dd6-711243f8deb3)<br/>
 환자가 앓고있는 질환(condition)의 종류는 709개이다.<br/>
 
+**리뷰가 가장 많은 질환 (condition)**
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/db49db21-2ea3-439b-923b-e01380de3463" width="800"></div>
+
+|순위|질환|  --  |
+|-|--------|--------|
+|1|birth control|피임|
+|2|Depression|우울증|
+|3|Pain|통증|
+|4|Anxiety|불안장애| 
+|5|Acne|여드름|
+|6|Bipolar Disorder|조울증| 
+|7|Weight Loss|체중감소| 
+|8|Insomnia|불면증| 
+|9|Obesity|비만 |
+|10|ADHD|주의력결핍 과잉행동장애|
+
+리뷰가 가장 많은 약물이 피임약인 만큼 리뷰가 가장 많은 질환이 피임인 것을 알 수 있다. 
 
 
 ### 2-3. 데이터 시각화

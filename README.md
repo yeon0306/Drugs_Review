@@ -121,6 +121,16 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 200자 미만, 400자 미만, 600자 미만, 800자 미만, 그 외(850자) 기준으로 퍼센트를 나타내었다. <br/>
 
 
+- 데이터
+|-|drugName|condition|review|ratings|
+|-|--------|--------|------|--------|
+|0|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|positive|
+|1|Guanfacine|ADHD|	"My son is halfway through his fourth week of ...|positive|
+|2|Lybrel|Birth Control|"I used to take another oral contraceptive, wh...|negative|
+|3|Ortho Evra|Birth Control|"This is my first time using any form of birth...|positive|
+|4|Buprenorphine/naloxone|Opiate Dependence|"Suboxone has completely turned my life around...|positive|
+
+20자 이하 데이터는 삭제하고 평점을 긍/부정으로 나누었다.
 
 
 

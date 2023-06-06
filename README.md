@@ -154,28 +154,31 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 ### 3. 데이터 전처리 
 
-위에 원시 데이터 시각화를 토대로 데이터 전처리 기준을 이렇게 선정했다. 
-리뷰가 가장 많은 약물과 질환이 피임 약물 또는 시술이므로 질환(Condition)의 'Birth Control' 리뷰 데이터만 추출하였다. 
-원시 데이터 53766건 중 'Birth Control' 은 9648건이다.
-원시 데이터의 약물 종류가 2637개, 질환이 709개라는 점과 약물,질환마다 리뷰에 쓰이는 의학 용어와 단어들이 매우 많아 학습 정확도가 떨어질 것을 감안하여
-가장 리뷰가 많은 약물과 질환이 유의미 있는 데이터라고 판단되어 'Birth Control'의 리뷰 데이터만 추출하여 학습하기로 했다.
+위에 원시 데이터 시각화를 토대로 데이터 전처리 기준을 이렇게 선정했다. <br/>
+리뷰가 가장 많은 약물과 질환이 피임 약물 또는 시술이므로 질환(Condition)의 'Birth Control' 리뷰 데이터만 추출하였다. <br/>
+원시 데이터 53766건 중 'Birth Control' 은 9648건이다.<br/>
+원시 데이터의 약물 종류가 2637개, 질환이 709개라는 점과 약물,질환마다 리뷰에 쓰이는 의학 용어와 단어들이 매우 많아 학습 정확도가 떨어질 것을 감안하여 <br/>
+가장 리뷰가 많은 약물과 질환이 유의미 있는 데이터라고 판단되어 'Birth Control'의 리뷰 데이터만 추출하여 학습하기로 했다. <br/>
 
 
 *positive 0 / negative 1* 
 
 
-|-|drugName|condition|review|label|
-|-|--------|--------|------|--------|
-|0|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|0|
-|1|Guanfacine|ADHD|	"My son is halfway through his fourth week of ...|0|
-|2|Belviq|Weight Loss|"This is a waste of money.  Did not curb my app...|1|
-|3|Ortho Evra|Birth Control|"This is my first time using any form of birth...|0|
-|4|Buprenorphine/naloxone|Opiate Dependence|"Suboxone has completely turned my life around...|0|
+|-|review|label|
+|-|------|--------|
+|0|"I have been on this birth control for one cycle ...|0|
+|1|"I absolutely love this product and recommend ...|0|
+|2|"honestly the measurement hurt more than the actual placement! And I'm... |0|
+|3|"I'm 21 and have two babies. I had the Mirena inserted about ...|1|
+|4|"Nexplanon was the WORST birth control I've had ...|1|
+|5|"Had the Implanon for 4 months and I just got it removed today ...|1|
 
-
+질환이 'Birth Control'인 리뷰 데이터만 추출하였다. <br/>
 리뷰 문장 길이 20자 이하 데이터와 850자 이상 데이터는 삭제하였다.<br/>
 긍/부정 예측을 정확하게 하기 위해 애매한 평점 4 ~ 6점의 데이터는 삭제하였고, 긍정은 8 ~ 10점 / 부정은 1 ~ 3점 기준으로 정하였다.<br/>
-기존 rating 을 삭제하고 label을 추가하여 긍정일 경우 0, 부정일 경우 1 으로 기입하였다.  
+기존 rating 을 삭제하고 label을 추가하여 긍정일 경우 0, 부정일 경우 1 으로 기입하였다. <br/>
+빠른 딥러닝 학습을 위해 긍정/부정 데이터를 각각 1000건씩 추출했다.<br/>
+
 
 
 

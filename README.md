@@ -176,4 +176,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 
 
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/862e664f-80cc-4b06-b19b-acd701d58ea3" width="800"></div>
 
+
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/24a149b6-c8eb-4f9a-833c-594a3774bbe1" width="800"></div>

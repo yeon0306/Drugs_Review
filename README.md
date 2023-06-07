@@ -179,17 +179,15 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 긍정/부정 데이터를 각각 1000건씩 추출하여 학습했다.<br/>
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/862e664f-80cc-4b06-b19b-acd701d58ea3" width="600"></div>
-
 모델의 긍/부정 예측 정확도가 0.94로 높게 나왔다. 
 
-<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/e6d00927-9616-4ed5-ba10-debd626918c5" width="600"></div>
-
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/e6d00927-9616-4ed5-ba10-debd626918c5" width="400"></div>
 모델의 loss 그래프 
-학습할수록 loss가 떨어지고 있음을 알 수 있다. 
+학습할수록 loss가 떨어지고 있음.
 
-
-<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/1df0340d-e41b-4aad-a2ca-dae2c0677a00" width="600"></div>
-
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/1df0340d-e41b-4aad-a2ca-dae2c0677a00" width="400"></div>
 Accuracy 그래프 
-학습할수록 정확도가 올라가는 것을 보여준다.
+학습할수록 정확도가 올라감.
 
+<div<img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/92578c84-d479-46f1-99ee-761fd37b72db" width="600"><div>
+birth control의 전체 데이터 9648건을 학습시켜보았더니 Accuracy가 0.91이 나왔다. 

@@ -176,7 +176,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 ### 4. 데이터 학습 
 
-긍정/부정 데이터를 각각 1000건씩 추출하여 학습했다.<br/>
+birth control의 긍정/부정 데이터를 각각 1000건씩 추출하여 2000건을 학습했다.<br/>
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/862e664f-80cc-4b06-b19b-acd701d58ea3" width="600"></div>
 모델의 긍/부정 예측 정확도가 0.94로 높게 나왔다. 
@@ -189,5 +189,5 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 Accuracy 그래프 
 학습할수록 정확도가 올라감.
 
-<div<img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/92578c84-d479-46f1-99ee-761fd37b72db" width="600"><div>
+<div<img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/92578c84-d479-46f1-99ee-761fd37b72db" width="600"></div>
 birth control의 전체 데이터 9648건을 학습시켜보았더니 Accuracy가 0.91이 나왔다. 

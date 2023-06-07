@@ -152,7 +152,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 위에 원시 데이터 시각화를 토대로 데이터 전처리 기준을 이렇게 선정했다. <br/>
 리뷰가 가장 많은 약물과 질환이 피임 약물 또는 시술이므로 질환(Condition)의 'Birth Control' 리뷰 데이터만 추출하였다. <br/>
 원시 데이터 53766건 중 'Birth Control' 은 9648건이다.<br/>
-원시 데이터의 약물 종류가 2637개, 질환이 709개라는 점과 약물,질환마다 리뷰에 쓰이는 의학 용어와 단어들이 매우 많아 학습 정확도가 떨어질 것을 감안하여
+원시 데이터의 약물 종류가 2637개, 질환이 709개라는 점과 약물, 질환마다 리뷰에 쓰이는 의학 용어와 단어들이 매우 많아 데이터의 일관성을 위하여 
 유의미 있는 데이터라고 판단된 'Birth Control'의 리뷰 데이터만 추출하여 학습하기로 했다. <br/>
 
 
@@ -172,11 +172,23 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 리뷰 문장 길이 20자 이하 데이터와 850자 이상 데이터는 삭제하였다.<br/>
 긍/부정 예측을 정확하게 하기 위해 애매한 평점 4 ~ 6점의 데이터는 삭제하였고, 긍정은 8 ~ 10점 / 부정은 1 ~ 3점 기준으로 정하였다.<br/>
 기존 rating 을 삭제하고 label을 추가하여 긍정일 경우 0, 부정일 경우 1 으로 기입하였다. <br/>
-빠른 딥러닝 학습을 위해 긍정/부정 데이터를 각각 1000건씩 추출했다.<br/>
 
 
+### 4. 딥러닝 학습 
+
+빠른 딥러닝 학습을 위해 긍정/부정 데이터를 각각 1000건씩 추출하여 학습했다.<br/>
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/862e664f-80cc-4b06-b19b-acd701d58ea3" width="600"></div>
 
+모델의 긍/부정 예측 정확도가 0.94로 높게 나왔다. 
 
-<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/24a149b6-c8eb-4f9a-833c-594a3774bbe1" width="700"></div>
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/e6d00927-9616-4ed5-ba10-debd626918c5" width="600"></div>
+
+모델의 loss 그래프 
+
+
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/1df0340d-e41b-4aad-a2ca-dae2c0677a00" width="600"></div>
+
+학습 정확도 그래프 
+
+

@@ -189,5 +189,11 @@ birth control의 긍정/부정 데이터를 각각 1000건씩 추출하여 2000�
 Accuracy 그래프 
 학습할수록 정확도가 올라감.
 
-<div<img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/92578c84-d479-46f1-99ee-761fd37b72db" width="600"></div>
-birth control의 전체 데이터 9648건을 학습시켜보았더니 Accuracy가 0.91이 나왔다. 
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/92578c84-d479-46f1-99ee-761fd37b72db" width="600"></div>
+birth control의 전체 데이터 7228건을 학습시켜보았더니 Accuracy가 0.91이 나왔다. 
+
+### 5. 최종 결과
+
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/7ec24f1a-33d3-46e0-9be8-d7414b4898fa" width="600"></div>
+
+

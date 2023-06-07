@@ -174,9 +174,9 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 기존 rating 을 삭제하고 label을 추가하여 긍정일 경우 0, 부정일 경우 1 으로 기입하였다. <br/>
 
 
-### 4. 딥러닝 학습 
+### 4. 데이터 학습 
 
-빠른 딥러닝 학습을 위해 긍정/부정 데이터를 각각 1000건씩 추출하여 학습했다.<br/>
+긍정/부정 데이터를 각각 1000건씩 추출하여 학습했다.<br/>
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/862e664f-80cc-4b06-b19b-acd701d58ea3" width="600"></div>
 
@@ -185,10 +185,11 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/e6d00927-9616-4ed5-ba10-debd626918c5" width="600"></div>
 
 모델의 loss 그래프 
+학습할수록 loss가 떨어지고 있음을 알 수 있다. 
 
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/1df0340d-e41b-4aad-a2ca-dae2c0677a00" width="600"></div>
 
-학습 정확도 그래프 
-
+Accuracy 그래프 
+학습할수록 정확도가 올라가는 것을 보여준다.
 

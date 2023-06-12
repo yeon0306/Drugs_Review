@@ -183,11 +183,11 @@ birth control의 긍정/부정 데이터를 각각 1000건씩 추출하여 2000�
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/e6d00927-9616-4ed5-ba10-debd626918c5" width="400"></div>
 모델의 loss 그래프 
-학습할수록 loss가 떨어지고 있음.
+학습할수록 loss가 떨어지고 있다.
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/1df0340d-e41b-4aad-a2ca-dae2c0677a00" width="400"></div>
 Accuracy 그래프 
-학습할수록 정확도가 올라감.
+학습할수록 정확도가 올라간다.
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/92578c84-d479-46f1-99ee-761fd37b72db" width="600"></div>
 birth control의 전체 데이터 7228건을 학습시켜보았더니 Accuracy가 0.91이 나왔다. 
@@ -197,8 +197,10 @@ birth control의 전체 데이터 7228건을 학습시켜보았더니 Accuracy�
 일부 데이터를 학습 시킨 모델에 전체 데이터 44159건을 예측해보았다. 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/7ec24f1a-33d3-46e0-9be8-d7414b4898fa" width="600"></div>
 
+--------------스정해야함 
 전체 데이터의 긍부정 예측 정확도는 0.79가 나왔다. </br>
-drugs review 데이터 특성상 2000개의 종류가 넘는 약물과 질환마다 각기 다른 의학 용어들과 문장 표현 방식때문에 긍부정 예측 Accuracy가 더욱 낮을거라 예상했지만
+drugs review 데이터 특성상 2000개의 종류가 넘는 약물과 700여개의 질환마다 각기 다른 의학 용어들과 문장 표현 방식때문에 긍부정 예측 Accuracy가 더욱 낮을거라 예상했다.전체 데이터를 섞어 2000개의 긍부정 데이터를 추출한 Accuracy가 0.57이 나왔었기 때문에 전체 데이터 예측 Accuracy는 더욱 낮을거라 예상했다.
+일관성을 위해 유의미한 데이터를 추출하여 일부 데이터로 학습시킨 모델은 전체 데이터의 예측 정확도가 0.79이기에     
 꽤 높은 정확도를 보여주어 일부 데이터를 학습 시킨 모델이 유의미하다고 결론을 낼 수 있다. </br>
 
 

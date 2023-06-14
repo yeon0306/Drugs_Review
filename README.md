@@ -49,15 +49,12 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 |0|206461|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|9|20-May-12|27|
 |1|95260|Guanfacine|ADHD|	"My son is halfway through his fourth week of ...|8|27-Apr-10|192|
 |2|92703|Lybrel|Birth Control|"I used to take another oral contraceptive, wh...|5|14-Dec-09|17|
-|.|.....|.....|.....|.....|...|...|..|
-|53760|130945|Levonorgestrel|Birth Control|"I'm married, 34 years old and I have no kids. Taking..."|8|15-Nov-10|7|
-|53761|47656|Tapentadol|Pain|"I was prescribed Nucynta for severe neck/shoulder pain..."|1|28-Nov-11|20|
-|53762|113712|Arthrotec|Sciatica|"It works!!!"|9|13-Sep-09|46|
+|..|...|...|.....|.....|...|...|..|
+|53764|130945|Levonorgestrel|Birth Control|"I'm married, 34 years old and I have no kids. Taking..."|8|15-Nov-10|7|
+|53765|47656|Tapentadol|Pain|"I was prescribed Nucynta for severe neck/shoulder pain..."|1|28-Nov-11|20|
+|53766|113712|Arthrotec|Sciatica|"It works!!!"|9|13-Sep-09|46|
 
-데이터는 53766건이며 2008년부터 2017년까지의 자료이다.<br/>
-평점(rating)은 1점부터 10점까지 구성되어있다.<br/>
-리뷰 작성 날짜(date)는 Year, month, day 로 나타내고 있다.<br/>
-
+데이터는 53766건이며 평점(rating)은 1점부터 10점까지 구성되어있다.<br/>
 
 ### 2-2. 데이터 부가정보 
 
@@ -105,8 +102,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 |9|Obesity|비만 |
 |10|ADHD|주의력결핍 과잉행동장애|
 
-두 그래프의 결과가 상관관계가 있음을 알 수 있다. <br/>
-리뷰가 가장 많은 약물 종류가 피임약인 만큼 리뷰가 가장 많은 질환이 피임이다.<br/>
+두 그래프의 결과가 상관관계가 있음을 알 수 있다. 리뷰가 가장 많은 약물 종류가 피임약인 만큼 리뷰가 가장 많은 질환이 피임이다.<br/>
 원시 데이터 53766건 중 'Birth Control' 은 9648건이다. <br/>
 
 
@@ -117,8 +113,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/337aa1f4-be0c-4512-a3e9-73b09eef13bb" width="600"></div>
 
 1점부터 10점까지 구성되어있는 평점 분포표이다.<br/> 
-사람들이 일반적으로 정말 좋아하는 약과 정말 싫어하는 약에 대한 리뷰를 쓴다는 것을 보여준다.<br/>
-극단적인 점수들에 비해 중간 점수인 2점부터 7점까지는 상당히 적게 분포되어 있는것을 알 수 있다.<br/> 
+극단적인 점수들에 비해 중간 점수인 2점부터 7점까지는 상당히 적게 분포되어 있다. 사람들이 일반적으로 정말 좋아하는 약과 정말 싫어하는 약에 대한 리뷰를 쓴다는 것을 보여준다.
 
 
 - 유용한 리뷰 추천수와 평점
@@ -126,8 +121,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/9b0e14c0-77ac-4e99-a751-cba3bac9c9f6" width="600"></div>
 
 리뷰 추천수와 평점의 상관관계를 알아보기 위하여 리뷰 추천수와 평점 평균 산점도를 그려보았다. <br/>
-평균적으로 평점 1점이 리뷰 추천수가 가장 낮고, 평점 10점이 리뷰 추천수를 가장 많은 것을 알 수 있다. <br/> 
-평점이 높을수록 리뷰 추천수가 높은 것을 볼 수 있다.  <br/>
+평균적으로 평점 1점이 리뷰 추천수가 가장 낮고, 평점 10점이 리뷰 추천수를 가장 많은 것으로 보아 평점이 높을수록 리뷰 추천수가 높은 것을 볼 수 있다. <br/>
 
 
 - 긍/부정 예측 
@@ -166,12 +160,12 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 |4|"Nexplanon was the WORST birth control I've had ...|1|
 |5|"Had the Implanon for 4 months and I just got it removed today ...|1|
 
-질환이 'Birth Control'인 리뷰 데이터만 추출하였다. <br/>
-리뷰 문장 길이 20자 이하 데이터와 850자 이상 데이터는 삭제하였다.<br/>
-긍/부정 예측을 정확하게 하기 위해 애매한 평점 4 ~ 6점의 데이터는 삭제하였고, 긍정은 8 ~ 10점 / 부정은 1 ~ 3점 기준으로 정하였다.<br/>
-기존 rating 을 삭제하고 label을 추가하여 긍정일 경우 0, 부정일 경우 1 으로 기입하였다. <br/>
-Birth Control 리뷰 데이터 9648건중 2420건을 삭제하여 총 7228건이며 <br/>
-전체 데이터는 53766건중 9607건을 삭제하여 총 44159건이다. 
+질환이 'Birth Control'인 리뷰 데이터만 추출하고 리뷰 글자 수가 20자 이하인 데이터는 삭제했다.
+긍/부정 예측을 정확하게 하기 위해 애매한 평점 4 ~ 6점의 데이터는 삭제하고 긍정은 8 ~ 10점, 부정은 1 ~ 3점 기준으로 기존 rating 을 삭제하고 label을 추가해서
+긍정일 경우 0, 부정일 경우 1 으로 기입했다. <br/>
+학습 시킬 데이터 개수는 Birth Control 리뷰 데이터의 9648건중 2420건을 삭제하여 총 7228건이다.
+또한 birth control 리뷰 데이터를 학습 시킨 모델로 전체 데이터의 긍/부정도 예측해볼 것이기 때문에 전체 데이터도 위와 똑같은 전처리를 하였다.
+전체 데이터는 53766건중 전처리 과정을 거쳐 9607건을 삭제했고 총 44159건이다. 
 
 ### 4. 데이터 학습 
 

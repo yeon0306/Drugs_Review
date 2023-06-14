@@ -49,8 +49,10 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 |0|206461|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|9|20-May-12|27|
 |1|95260|Guanfacine|ADHD|	"My son is halfway through his fourth week of ...|8|27-Apr-10|192|
 |2|92703|Lybrel|Birth Control|"I used to take another oral contraceptive, wh...|5|14-Dec-09|17|
-|3|138000|Ortho Evra|Birth Control|"This is my first time using any form of birth...|8|3-Nov-15|10|
-|4|35696|Buprenorphine/naloxone|Opiate Dependence|"Suboxone has completely turned my life around...|9|27-Nov-16|37|
+|.|.....|.....|.....|.....|...|...|..|
+|53760|130945|Levonorgestrel|Birth Control|"I'm married, 34 years old and I have no kids. Taking..."|8|15-Nov-10|7|
+|53761|47656|Tapentadol|Pain|"I was prescribed Nucynta for severe neck/shoulder pain..."|1|28-Nov-11|20|
+|53762|113712|Arthrotec|Sciatica|"It works!!!"|9|13-Sep-09|46|
 
 데이터는 53766건이며 2008년부터 2017년까지의 자료이다.<br/>
 평점(rating)은 1점부터 10점까지 구성되어있다.<br/>

@@ -179,11 +179,11 @@ birth control의 긍정/부정 데이터를 각각 1000건씩 추출하여 2000�
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/862e664f-80cc-4b06-b19b-acd701d58ea3" width="600"></div>
 모델의 긍/부정 예측 정확도가 0.94로 높게 나왔다. 
 
-<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/e6d00927-9616-4ed5-ba10-debd626918c5" width="400"></div>
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/e6d00927-9616-4ed5-ba10-debd626918c5" width="600"></div>
 모델의 loss 그래프 
 학습할수록 loss가 떨어지고 있다.
 
-<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/1df0340d-e41b-4aad-a2ca-dae2c0677a00" width="400"></div>
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/1df0340d-e41b-4aad-a2ca-dae2c0677a00" width="600"></div>
 Accuracy 그래프 
 학습할수록 정확도가 올라간다.
 

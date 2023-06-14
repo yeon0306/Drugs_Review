@@ -112,7 +112,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 - 평점 분포
 
-<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/337aa1f4-be0c-4512-a3e9-73b09eef13bb" width="800"></div>
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/337aa1f4-be0c-4512-a3e9-73b09eef13bb" width="600"></div>
 
 1점부터 10점까지 구성되어있는 평점 분포표이다.<br/> 
 사람들이 일반적으로 정말 좋아하는 약과 정말 싫어하는 약에 대한 리뷰를 쓴다는 것을 보여준다.<br/>

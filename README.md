@@ -61,9 +61,9 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 **약물 개수** 
 
 ![약물 종류 111](https://github.com/yeon0306/Drugs_Review/assets/112537146/fe26ec16-124d-43d9-b9f2-d9e80e109930)<br/>
-약물종류(drugName)는 2637개이다.<br/>
+약물 리뷰 데이터의 약물종류(drugName)는 2637개이다.<br/>
 
-**리뷰가 가장 많은 약물 상위 10개를 뽑은 그래프** 
+**리뷰가 가장 많은 약물 Top10 (drugsName)** 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/fa86bc7d-103d-42e0-9318-40d3f8029ee3" width="1200"></div>
 
 |순위|약물이름|  설명  |
@@ -74,19 +74,20 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 |4|Nexplanon(넥스플래논)|여성 피임 임플란트, 팔에 성냥개비 크기의 플라스틱 막대의 임플란트를 이식하는 피임 시술|
 |5|Ethinyl estradiol/norgestimate (에스트라디올/노르게스트 조합)|여성 피임약이지만 여드름 치료로도 사용|
 |6|Ethinyl estradiol/levonorgestrel (에티닐에스트라디올/레보노르게스트렐)|복합 피임약,생리통,자궁 내막증 및 응급 피임약|
-|7|Phentermine(펜터민)|비만 치료제|
+|7|Phentermine(펜터민)|비만,식욕 억제제|
 |8|sertraline(설트랄린)|우울증, 강박증 치료제|
 |9|Escitalopram(에스시탈로프람)|우울증, 공황장애, 사회불안장애 등 광범위하게 사용되는 항우울제|
 |10|mirena (미레나)|자궁 내 피임 시술| 
 
-그래프의 설명을 돕기 위해 약물 이름과 설명을 표로 만들었다. 여성 피임약과 피임 시술 리뷰가 가장 많다.
+약물 데이터의 전반을 이해하기 위해 리뷰가 가장 많은 약물 상위 10개 그래프를 그려 시각화하고 약물 이름과 설명을 표로 만들었다.
+주로 여성 피임약과 피임 시술에 관련된 약물들인 것을 볼 수 있으며 그 외 비만과 우울증, 강박증 등의 항우울제 약물들이 리뷰가 가장 많은 약물 상위 10개에 포함되어 있다.
 
-**환자병명 개수**
+**환자질환 개수**
 
 ![환자 병명](https://github.com/yeon0306/Drugs_Review/assets/112537146/53090564-1f8d-407d-8dd6-711243f8deb3)<br/>
-환자가 앓고있는 질환(condition)의 종류는 709개이다.<br/>
+약물 리뷰 데이터의 환자가 앓고있는 질환(condition)의 종류는 709개이다.<br/>
 
-**리뷰가 가장 많은 질환 (condition)**
+**리뷰가 가장 많은 질환 Top10 (condition)**
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/db49db21-2ea3-439b-923b-e01380de3463" width="800"></div>
 
 |순위|질환|  --  |
@@ -102,8 +103,10 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 |9|Obesity|비만 |
 |10|ADHD|주의력결핍 과잉행동장애|
 
-두 그래프의 결과가 상관관계가 있음을 알 수 있다. 리뷰가 가장 많은 약물 종류가 피임약인 만큼 리뷰가 가장 많은 질환이 피임이다.<br/>
-원시 데이터 53766건 중 'Birth Control' 은 9648건이다. <br/>
+리뷰가 가장 많은 질환은 리뷰가 가장 많은 약물 그래프에서 주를 차지했던 피임약들과 피임 시술들의 condition인 Birth control(피임)으로
+원시 데이터 53766건 중 'Birth Control' 은 9648건을 차지한다.
+또한 이 그래프에서 알 수 있는 것은 Depression(우울증)과 Anxiety(불안장애),Bipolar Disorder(조울증), Insomnia(불면증), ADHD(주의력결핍 과잉행동장애)는 주로 항정신병약물을 사용하는 질환이기에 
+항우울제인 약물들과 관련이 있다고 볼 수 있으므로 두 그래프의 결과가 상관관계가 있다고 할 수 있다.
 
 
 ### 2-3. 데이터 시각화

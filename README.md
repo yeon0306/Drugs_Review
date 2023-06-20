@@ -61,7 +61,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 **약물 개수** 
 
 ![약물 종류 111](https://github.com/yeon0306/Drugs_Review/assets/112537146/fe26ec16-124d-43d9-b9f2-d9e80e109930)<br/>
-약물 리뷰 데이터의 약물종류(drugName)는 2637개이다.<br/>
+데이터의 약물종류(drugName)는 2637개이다.<br/>
 
 **리뷰가 가장 많은 약물 Top10 (drugsName)** 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/fa86bc7d-103d-42e0-9318-40d3f8029ee3" width="1200"></div>
@@ -85,7 +85,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 **환자질환 개수**
 
 ![환자 병명](https://github.com/yeon0306/Drugs_Review/assets/112537146/53090564-1f8d-407d-8dd6-711243f8deb3)<br/>
-약물 리뷰 데이터의 환자가 앓고있는 질환(condition)의 종류는 709개이다.<br/>
+데이터의 환자가 앓고있는 질환(condition)의 종류는 709개이다.<br/>
 
 **리뷰가 가장 많은 질환 Top10 (condition)**
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/db49db21-2ea3-439b-923b-e01380de3463" width="800"></div>

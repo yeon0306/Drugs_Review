@@ -46,9 +46,9 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 |-|uniqueID|drugName|condition|review|rating|date|usefulCount|
 |-|--------|--------|--------|------|------|----|-----------|
-|0|206461|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|9|20-May-12|27|
-|1|95260|Guanfacine|ADHD|	"My son is halfway through his fourth week of ...|8|27-Apr-10|192|
-|2|92703|Lybrel|Birth Control|"I used to take another oral contraceptive, wh...|5|14-Dec-09|17|
+|1|206461|Valsartan|Left Ventricular Dysfunction|"It has no side effect, I take it in combinati...|9|20-May-12|27|
+|2|95260|Guanfacine|ADHD|	"My son is halfway through his fourth week of ...|8|27-Apr-10|192|
+|3|92703|Lybrel|Birth Control|"I used to take another oral contraceptive, wh...|5|14-Dec-09|17|
 |..|...|...|.....|.....|...|...|..|
 |53764|130945|Levonorgestrel|Birth Control|"I'm married, 34 years old and I have no kids. Taking..."|8|15-Nov-10|7|
 |53765|47656|Tapentadol|Pain|"I was prescribed Nucynta for severe neck/shoulder pain..."|1|28-Nov-11|20|
@@ -90,7 +90,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 **리뷰가 가장 많은 질환 Top10 (condition)**
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/db49db21-2ea3-439b-923b-e01380de3463" width="800"></div>
 
-|순위|질환|  --  |
+|순위|질환|     |
 |-|--------|--------|
 |1|birth control|피임|
 |2|Depression|우울증|
@@ -105,7 +105,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 리뷰가 가장 많은 질환은 약물 그래프에서 주를 차지했던 피임약들과 피임 시술들의 질환인 'Birth control'으로, 원시 데이터 53766건 중 9648건을 차지한다.
 또한 이 그래프에서 알 수 있는 것은 Depression(우울증)과 Anxiety(불안장애),Bipolar Disorder(조울증), Insomnia(불면증), ADHD(주의력결핍 과잉행동장애)는 주로 항정신병약물을 사용하는 질환이기에 
-항우울제인 약물들과 관련이 있다고 볼 수 있으므로 두 그래프의 결과가 상관관계가 있다고 볼 수 있다.
+약물 그래프 상위 10개 그래프의 들었던 항우울제인 약물과 관련이 있으므로 이는 두 그래프의 결과가 상관관계가 있다고 볼 수 있다.
 
 
 ### 2-3. 데이터 시각화
@@ -114,9 +114,8 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/337aa1f4-be0c-4512-a3e9-73b09eef13bb" width="600"></div>
 
-1점부터 10점까지 구성되어있는 평점 분포표이다.극단적인 점수들에 비해 중간 점수인 2점부터 7점까지는 상당히 적게 분포되어 있다. 
-사람들이 일반적으로 정말 좋아하는 약과 정말 싫어하는 약에 대한 리뷰를 쓴다는 것을 보여준다.
-
+1점부터 10점으로 구성되어있는 평점 분포표이다. 극단적인 점수들인 1점과 9~10점에 비해 2점부터 7점까지는 상당히 적게 분포되어 있다는 것을 볼 수 있으며
+사람들이 일반적으로 정말 긍정적인 약물과 정말 부정적인 약물에 대한 리뷰를 쓴다는 점을 알 수 있다.
 
 - 유용한 리뷰 추천수와 평점
 
@@ -128,7 +127,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 - 긍/부정 예측 
 
-약물 리뷰의 긍/부정 예측은 평점의 5점보다 크거나 같을때 긍정, 5점보다 작을때 부정으로 예측해보겠다.
+전체 약물 리뷰의 긍/부정 예측은 평점의 5점보다 크거나 같을때 긍정, 5점보다 작을때 부정으로 예측해보겠다.
 
 ![sentiment](https://user-images.githubusercontent.com/112537146/235824425-4d7374d5-c083-4117-9bb4-f9fb043a9193.PNG)
 
@@ -136,38 +135,50 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 <div><img src = "https://user-images.githubusercontent.com/112537146/235824785-a88af42b-71b1-437b-9944-ba3c97f82781.PNG" width="600"></div>
 
-약물 리뷰의 긍/부정 예측을 파이차트로 그려보았다. 긍정은 74.90%, 부정은 25.10% 이다.
+약물 리뷰의 긍/부정 예측을 파이차트로 그려보았다. 긍정은 74.90%, 부정은 25.10% 으로, 특정 약물들의 대해 긍정적인 리뷰가 압도적으로 많은 것으로 보인다.
 
 - 리뷰 문장 길이 
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/01940a74-943e-4998-9be4-4dd9fe536c2e" width="800"></div>
 
-리뷰 문장 길이 20자 이상 850자 이하 기준 그래프이다.<br/>
-700자 중후반의 리뷰가 약 5천건으로 가장 많다. <br/> 
+약물 리뷰 문장 길이 20자 이상 850자 이하 기준 그래프이다.<br/>
+700자 중후반의 리뷰가 약 5천건으로 가장 많으며, 800자 이상의 리뷰가 가장 적게 나타난다. <br/> 
 
-### 3. 데이터 전처리 
+## 3. 데이터 전처리 
 
 원시 데이터의 약물 종류가 2637개, 질환이 709개라는 점과 약물, 질환마다 리뷰에 쓰이는 의학 용어와 단어들이 매우 많아 데이터의 일관성을 위하여
-유의미 있는 데이터라고 판단된 리뷰가 가장 많은 질환 'Birth Control' 의 리뷰 데이터만 추출하여 학습하기로 했다. <br/>
+유의미 있는 데이터라고 판단된 **리뷰가 가장 많은 질환 'Birth Control'** 의 리뷰 데이터를 추출하여 학습하기로 했다. <br/>
 
 
+### 3.1 Birth Control 분석 데이터 
 *positive 0 / negative 1* 
 
-|-|review|label|
+| |review|label|
 |-|------|--------|
-|0|"I have been on this birth control for one cycle ...|0|
-|1|"I absolutely love this product and recommend ...|0|
-|2|"honestly the measurement hurt more than the actual placement! And I'm... |0|
-|3|"I'm 21 and have two babies. I had the Mirena inserted about ...|1|
-|4|"Nexplanon was the WORST birth control I've had ...|1|
-|5|"Had the Implanon for 4 months and I just got it removed today ...|1|
+|1|"I have been on this birth control for one cycle ...|0|
+|2|"I absolutely love this product and recommend ...|0|
+|3|"honestly the measurement hurt more than the actual placement! And I'm... |0|
+|..|...|..|
+|7226|"So I got Nexplanon just under a year ago...|0|
+|7227|"I first would like to thank all of you that posted comments...|1|
+|7228|"I started taking Apri about 7 months ago. My breats got noticeably...|0|
 
-질환이 'Birth Control'인 리뷰 데이터만 추출하고 리뷰 글자 수가 20자 이하인 데이터는 삭제했다.
-긍/부정 예측을 정확하게 하기 위해 애매한 평점 4 ~ 6점의 데이터는 삭제하고 긍정은 8 ~ 10점, 부정은 1 ~ 3점 기준으로
-기존 rating 을 삭제하고 label을 추가해서 긍정일 경우 0, 부정일 경우 1 으로 기입했다. <br/>
-학습 시킬 데이터 개수는 Birth Control 리뷰 데이터의 9648건중 2420건을 삭제하여 총 7228건이다.
-또한 birth control 리뷰 데이터를 학습 시킨 모델로 전체 데이터의 긍/부정도 예측해볼 것이기 때문에 전체 데이터도 위와 똑같은 전처리를 하였다.
-전체 데이터는 53766건중 전처리 과정을 거쳐 9607건을 삭제했고 총 44159건이다. 
+질환이 'Birth Control'인 데이터만 추출하고 label 이라는 열을 새로 생성하여 평점이 8 ~ 10점인 리뷰에는 1을, 평점이 1 ~ 3점인 리뷰에는 0을 부여하였다. 
+평점이 4~6점인 리뷰 데이터와 리뷰 문장 길이가 20자 미만, 800자 이상 데이터는 삭제하였고 'review', 'label' 데이터로 새로운 데이터셋을 생성하였다.
+
+### 3.2 Birth Control 학습 데이터 
+
+
+| |review|label|
+|-|------|--------|
+|1|"I have been on this birth control for one cycle...|0|
+|2|"I absolutely love this product and recommend...|0|
+|..|...|..|
+|1999|"I was hospitalized within the first 3 weeks of taking...|1|
+|2000|"I'm 21 and have two babies. I had the Mirena...|1|
+
+앞서 가공한 데이터의 긍부정 비율이 불균형적이기 때문에 학습 정확도를 높이기 위해
+Birth Control의 긍정적인 리뷰와 부정적인 리뷰의 데이터를 각각 1000개씩 임의로 추출하여 2000개의 학습 데이터를 만들었다. 
 
 ### 4. 데이터 학습 
 

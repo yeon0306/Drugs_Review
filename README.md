@@ -163,7 +163,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 |7227|"I first would like to thank all of you that posted comments...|1|
 |7228|"I started taking Apri about 7 months ago. My breats got noticeably...|0|
 
-질환이 'Birth Control'인 데이터만 추출하고 label 이라는 열을 새로 생성하여 평점이 8 ~ 10점인 리뷰에는 1을, 평점이 1 ~ 3점인 리뷰에는 0을 부여하였다. 
+질환이 'Birth Control'인 데이터만 추출하고 label 이라는 열을 새로 생성하여 평점이 8 ~ 10점으로 긍정적인 리뷰에는 0을, 평점이 1 ~ 3점인 부정적인 리뷰에는 1을 부여하였다. 
 평점이 4~6점인 리뷰 데이터와 리뷰 문장 길이가 20자 미만, 800자 이상 데이터는 삭제하였고 'review', 'label' 데이터로 새로운 데이터셋을 생성하였다.
 
 ### 3.2 Birth Control 학습 데이터 

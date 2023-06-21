@@ -147,13 +147,23 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 ## 3. 데이터 전처리 
 
 원시 데이터의 약물 종류가 2637개, 질환이 709개라는 점과 약물과 질환마다 리뷰에 쓰이는 의학 용어와 단어들이 매우 많아 데이터의 일관성을 위하여
-위 데이터 시각화를 토대로 유의미 있는 데이터라고 판단된  **리뷰가 가장 많은 질환 'Birth Control'** 의 리뷰 데이터를 추출하여 모델을 학습하기로 했다. <br/>
-또한 Birth Control 데이터에서 클래스 불균형 문제를 보완하기 위해 긍정 부정 비율을 동일하게 추출한 Birth Control 일부 데이터를 학습한 모델로
-전체 데이터와 Birth Control 데이터를 예측해 보기로 했다. 
+위 데이터 시각화를 토대로 유의미 있는 데이터라고 판단된  **리뷰가 가장 많은 질환 'Birth Control'** 의 리뷰 데이터를 추출하여 분석하기로 했다.<br/>
+또한 Birth Control 데이터에서 클래스 불균형 문제를 보완하기 위해 긍정 부정 비율을 동일하게 추출한 Birth Control 일부 데이터를 학습한 모델로 <br/> 
+**전체 데이터**와 **Birth Control 데이터**를 예측해 보기로 했다. 
 
 ### 3.1 전체 분석 데이터 
 *positive 0 / negative 1* 
 
+| |review|label|
+|-|------|--------|
+|1|"I've tried a few antidepressants over the years...|0|
+|2|"My son has Crohn's disease and has done very well on the Asacol...|0|
+|..|...|..|
+|44162|"I'm married, 34 years old and I have no kids. Taking the pill was such...|0|
+|44163|"I was prescribed Nucynta for severe neck/shoulder pain...|1|
+
+기존 rating을 삭제하고 label 이라는 열을 새로 생성하여 평점이 8 ~ 10점으로 긍정적인 리뷰에는 0을, 평점이 1 ~ 3점인 부정적인 리뷰에는 1을 부여하였다. 
+평점이 4~6점인 리뷰 데이터와 리뷰 문장 길이가 20자 미만, 800자 이상 데이터는 삭제하였고 'review', 'label' 데이터로 새로운 데이터셋을 생성하였다.
 
 ### 3.2 Birth Control 분석 데이터 
 
@@ -161,14 +171,11 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 |-|------|--------|
 |1|"I have been on this birth control for one cycle ...|0|
 |2|"I absolutely love this product and recommend ...|0|
-|3|"honestly the measurement hurt more than the actual placement! And I'm... |0|
 |..|...|..|
-|7226|"So I got Nexplanon just under a year ago...|0|
 |7227|"I first would like to thank all of you that posted comments...|1|
 |7228|"I started taking Apri about 7 months ago. My breats got noticeably...|0|
 
-질환이 'Birth Control'인 데이터만 추출하고 label 이라는 열을 새로 생성하여 평점이 8 ~ 10점으로 긍정적인 리뷰에는 0을, 평점이 1 ~ 3점인 부정적인 리뷰에는 1을 부여하였다. 
-평점이 4~6점인 리뷰 데이터와 리뷰 문장 길이가 20자 미만, 800자 이상 데이터는 삭제하였고 'review', 'label' 데이터로 새로운 데이터셋을 생성하였다.
+가공된 전체 데이터에서 질환이 'Birth Control'인 데이터만 추출하였다.
 
 ### 3.3 Birth Control 학습 데이터 
 

@@ -151,7 +151,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 추출한 Birth Control 데이터에서 클래스 불균형 문제를 보완하기 위해 긍정 부정 비율을 동일하게 추출하여 Birth Control 일부 데이터셋을 만들고, 일부 데이터로 학습한 모델로
 전체 데이터와 Birth Control 데이터를 예측해 보기로 했다. 
 
-### 3.1 전체 분석 데이터 
+### 3-1.전체 분석 데이터 
 *positive 0 / negative 1* 
 
 | |review|label|
@@ -165,7 +165,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 기존 rating을 삭제하고 label 이라는 열을 새로 생성하여 평점이 8 ~ 10점으로 긍정적인 리뷰에는 0을, 평점이 1 ~ 3점인 부정적인 리뷰에는 1을 부여하였다. 
 평점이 4~6점인 리뷰 데이터와 리뷰 문장 길이가 20자 미만, 800자 이상 데이터는 삭제하였고 'review', 'label' 데이터로 새로운 데이터셋을 생성하였다.
 
-### 3.2 Birth Control 분석 데이터 
+### 3-2.Birth Control 분석 데이터 
 
 | |review|label|
 |-|------|--------|
@@ -177,7 +177,7 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 
 가공된 전체 데이터에서 질환이 'Birth Control'인 데이터만 추출하였다.
 
-### 3.3 Birth Control 학습 데이터 
+### 3-3.Birth Control 학습 데이터 
 
 
 | |review|label|

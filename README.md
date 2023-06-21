@@ -198,21 +198,29 @@ Birth Control의 긍정적인 리뷰와 부정적인 리뷰의 데이터를 각�
 #### 패키지  
 <img src="https://img.shields.io/badge/pandas 1.4.4-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/torch 1.12.1-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/tensorflow 2.9.1-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/numpy 1.24.2-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/transformers 4.21.2-81c147?style=flat-square&logo=transformers&logoColor=white"/> <img src="https://img.shields.io/badge/scikit-learn 1.2.2-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/matplotlib 3.7.1-3776AB?style=flat-square&logo=matplot&logoColor=white"/>
 
-<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/862e664f-80cc-4b06-b19b-acd701d58ea3" width="600"></div>
-모델의 긍/부정 예측 정확도가 0.94로 높게 나왔다. 
 
-<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/e6d00927-9616-4ed5-ba10-debd626918c5" width="600"></div>
-모델의 loss 그래프 
-학습할수록 loss가 떨어지고 있다.
+### MobileBERT 학습 결과 
 
-<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/1df0340d-e41b-4aad-a2ca-dae2c0677a00" width="600"></div>
-Accuracy 그래프 
-학습할수록 정확도가 올라간다.
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/c8fc552f-6637-4fcf-a822-9fcc8a22a369" width="400"></div>
 
-<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/92578c84-d479-46f1-99ee-761fd37b72db" width="600"></div>
-birth control의 전체 데이터 7228건을 학습시켜보았더니 Accuracy가 0.91이 나왔다. 
+<div> <img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/fdd7bb5b-34e2-40ea-be5e-41862536c26c" width="700"> <img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/060d7b68-118c-4753-ad02-438de51095f3" width="700"> </div>
+
+|step|0|1|2|3|
+|:---:|:---:|:---:|:---:|:---:|
+|loss|3.7182e+5|13.11|0.20|0.13|
+|accuracy|0.9|0.93|0.94|0.95|
+
+텐서보드를 활용하여 모델의 학습 단계를 시각화한 그래프이다.
+초기 단계에서의 loss는 371,820으로 매우 높은 값을 나타내지만 훈련이 진행될 수록 loss가 감소하고 있으며 세번째 단계에서는 loss값이 0.13으로 매우 감소했다.
+Accuracy(정확도)는 학습할 수록 증가했으며 최종적으로 학습 데이터의 긍부정 예측 정확도는 0.95가 나왔다. 
+즉 모델이 학습 데이터의 긍정과 부정을 분류하는 것을 올바르게 학습되었다는 것을 확인 할 수 있다.
+
 
 ### 5. 최종 결과
+
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/92578c84-d479-46f1-99ee-761fd37b72db" width="0"></div>
+birth control의 전체 데이터 7228건을 학습시켜보았더니 Accuracy가 0.91이 나왔다. 
+
 
 일부 데이터를 학습 시킨 모델로 전체 데이터 44159건을 예측해보았다. 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/7ec24f1a-33d3-46e0-9be8-d7414b4898fa" width="600"></div>

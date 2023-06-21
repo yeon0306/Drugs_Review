@@ -216,6 +216,7 @@ Accuracy(정확도)는 학습할 수록 증가했으며, 학습 데이터의 긍
 즉 모델이 학습 데이터의 긍정과 부정을 분류하는 것을 올바르게 학습되었다는 것을 확인할 수 있다.
 
 ### 4-2.Birth control 분석 데이터에 적용한 결과값
+
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/92578c84-d479-46f1-99ee-761fd37b72db" width="0"></div>
 birth control 데이터를 학습시켜보았더니 Accuracy가 0.91이 나왔다. 
 

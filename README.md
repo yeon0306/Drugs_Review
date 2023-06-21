@@ -191,9 +191,12 @@ Searchmetrics는 Drugs.com을 검색 가시성 상위 100개 미국 웹사이트
 앞서 가공한 데이터의 긍부정 비율이 불균형적이기 때문에 학습 정확도를 높이기 위해
 Birth Control의 긍정적인 리뷰와 부정적인 리뷰의 데이터를 각각 1000개씩 임의로 추출하여 2000개의 학습 데이터를 만들었다. 
 
-### 4. 데이터 학습 
+## 4.결과
 
-birth control의 긍정/부정 데이터를 각각 1000건씩 추출하여 2000건을 학습했다.<br/>
+#### 개발환경  
+<img src="https://img.shields.io/badge/pycharm 2022.3.3-000000?style=flat-square&logo=pycharm&logoColor=white"/> <img src="https://img.shields.io/badge/Python 3.9.0-3776AB?style=flat-square&logo=Python&logoColor=white"/>  
+#### 패키지  
+<img src="https://img.shields.io/badge/pandas 1.4.4-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/torch 1.12.1-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/tensorflow 2.9.1-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/numpy 1.24.2-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/transformers 4.21.2-81c147?style=flat-square&logo=transformers&logoColor=white"/> <img src="https://img.shields.io/badge/scikit-learn 1.2.2-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/matplotlib 3.7.1-3776AB?style=flat-square&logo=matplot&logoColor=white"/>
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/862e664f-80cc-4b06-b19b-acd701d58ea3" width="600"></div>
 모델의 긍/부정 예측 정확도가 0.94로 높게 나왔다. 

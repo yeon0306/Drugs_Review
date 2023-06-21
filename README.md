@@ -199,11 +199,11 @@ Birth Control의 긍정적인 리뷰와 부정적인 리뷰의 데이터를 각�
 <img src="https://img.shields.io/badge/pandas 1.4.4-150458?style=flat-square&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/torch 1.12.1-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/tensorflow 2.9.1-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/numpy 1.24.2-013243?style=flat-square&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/transformers 4.21.2-81c147?style=flat-square&logo=transformers&logoColor=white"/> <img src="https://img.shields.io/badge/scikit-learn 1.2.2-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/matplotlib 3.7.1-3776AB?style=flat-square&logo=matplot&logoColor=white"/>
 
 
-### MobileBERT 학습 결과 
+### 4-1.MobileBERT 사용한 결과
 
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/c8fc552f-6637-4fcf-a822-9fcc8a22a369" width="400"></div>
 
-<div> <img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/fdd7bb5b-34e2-40ea-be5e-41862536c26c" width="700"> <img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/060d7b68-118c-4753-ad02-438de51095f3" width="700"> </div>
+<div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/fdd7bb5b-34e2-40ea-be5e-41862536c26c" width="700"><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/060d7b68-118c-4753-ad02-438de51095f3" width="700"> </div>
 
 |step|0|1|2|3|
 |:---:|:---:|:---:|:---:|:---:|
@@ -212,23 +212,47 @@ Birth Control의 긍정적인 리뷰와 부정적인 리뷰의 데이터를 각�
 
 텐서보드를 활용하여 모델의 학습 단계를 시각화한 그래프이다.
 초기 단계에서의 loss는 371,820으로 매우 높은 값을 나타내지만 훈련이 진행될 수록 loss가 감소하고 있으며 세번째 단계에서는 loss값이 0.13으로 매우 감소했다.
-Accuracy(정확도)는 학습할 수록 증가했으며 최종적으로 학습 데이터의 긍부정 예측 정확도는 0.95가 나왔다. 
-즉 모델이 학습 데이터의 긍정과 부정을 분류하는 것을 올바르게 학습되었다는 것을 확인 할 수 있다.
+Accuracy(정확도)는 학습할 수록 증가했으며, 학습 데이터의 긍부정 예측 정확도는 0.95가 나왔다. 
+즉 모델이 학습 데이터의 긍정과 부정을 분류하는 것을 올바르게 학습되었다는 것을 확인할 수 있다.
 
-
-### 5. 최종 결과
-
+### 4-2.Birth control 분석 데이터에 적용한 결과값
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/92578c84-d479-46f1-99ee-761fd37b72db" width="0"></div>
-birth control의 전체 데이터 7228건을 학습시켜보았더니 Accuracy가 0.91이 나왔다. 
+birth control 데이터를 학습시켜보았더니 Accuracy가 0.91이 나왔다. 
 
 
-일부 데이터를 학습 시킨 모델로 전체 데이터 44159건을 예측해보았다. 
+### 4-3.전체 분석 데이터에 적용한 결과값
+
 <div><img src = "https://github.com/yeon0306/Drugs_Review/assets/112537146/7ec24f1a-33d3-46e0-9be8-d7414b4898fa" width="600"></div>
 
-전체 데이터의 긍부정 예측 정확도는 0.79가 나왔다. </br>
-drugs review 데이터 특성상 2000개의 종류가 넘는 약물과 700여개의 질환마다 각기 다른 의학 용어들과 문장 표현 방식때문에 정확도 예측에 어려움이 있었다.
-전체 데이터에서 랜덤으로 2000개의 긍부정 데이터를 추출하여 학습한 모델의 Accuracy가 0.57이 나왔었기 때문에 전체 데이터 예측 Accuracy는 더욱 낮을거라 예상했지만,
-일관성을 위해 유의미한 데이터를 추출하여 일부 데이터로 학습시킨 모델은 전체 데이터의 예측 정확도가 0.79이기에 일부 데이터를 학습 시킨 모델이 유의미하다고 결론을 낼 수 있다.
+전체 분석 데이터에 적용한 Accuracy 결과값은 0.79가 나왔다. </br>
+예상했던 것보다는 정확도가 높게 나왔지만, Birth Control 분석 데이터의 결과값에 비하면 낮다고 볼 수 있다. </br>
+
+
+## 5. 결론 및 배운 점 
+
+약물 리뷰 데이터 특성상 2000개의 종류가 넘는 약물과 700여개의 질환마다 생소한 의학 용어들과 각기 다른 
+표현 방식 때문에 데이터의 일관성이 부족하여 정확도 예측에 어려움이 있었다. 전체 데이터에서 랜덤으로 2000개의 긍부정 데이터를 
+추출하여 학습한 모델의 Accuracy는 0.57이 나왔었기 때문에 전체 분석 데이터에 적용한 결과값도 크게 
+다르지 않을 거라 예상했는데 일부 데이터로 학습시킨 모델을 전체에 적용한 결과값은 0.79로 꽤 높게 나와서 의외였었다. 
+왜 그럴까 생각해보니 첫번째로 Birth Control 이라는 일관성이 있는 피임약 데이터들만 추출하였고,
+두번째로는 피임약은 통상적으로 많은 사람들이 사용하는 대중적인 약품이라는 것이다. Birth Control의 리뷰 내용을 보니 
+일반적으로 많이 사용하는 표현들이 많았고, 모델 토큰에 없을 만한 생소한 의학 용어들은 매우 적었다.
+모든 약물 리뷰에 의학 용어만 사용된 것은 아니기 때문에 어느정도 피임약 리뷰 데이터에서 부정적인 경험, 긍정적인 경험을 표현하는 방식,
+피임약과는 다른 약물이지만 다른 약물에서 나타나는 비슷한 부작용 사례(복통,어지럼증,두통 같은 통상적으로 많이 겪을 수 있는 부작용)를 고려해봤을 때 이런 경우의 수로 
+예상보다는 높은 정확도가 나온 것 같다.
+물론 어느정도 운의 요소도 따랐을 것이라고 생각되므로 온전히 일부 데이터를 학습 시킨 모델이 유의미하다고 결론을 내리기는 어려울 것 같다. 
+배운 점은 Accuray를 높이기 위해서는 데이터의 전처리와 데이터의 일관성은 모델 학습에 매우 중요한 요소임을 깨달을 수 있었고
+약물 같은 생소한 데이터를 다루면서 이 분야에 좀 더 관심이 있거나 지식이 많았더라면 더 수월하지 않았을까하는 생각이 든다.
+이 프로젝트의 개선할 점은 약물과 질환을 종류대로 묶어서 데이터의 일관성을 더욱 갖추고, 약물 리뷰에 있는 의학 용어들을 토큰화 한다면 더욱 유의미한 약물 긍부정 예측 모델을 
+만들 수 있지 않았을까하며 아쉬움이 남는다. 
+
+
+
+
+
+
+
+
 
 
 
